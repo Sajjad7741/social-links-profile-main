@@ -22,10 +22,7 @@
 }
 .imagebox {
   margin: 10px 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 .imagebox img {
   width: 110px;
@@ -43,31 +40,31 @@
 
 .profileLinks {
   margin-top: 8px;
-  display: flex;
-  flex-direction: column;
 }
 .profileLinks a {
   color: #dad3d3;
-  padding: 10px 15px;
+  padding: 10px 20px;
+  display: block;
   text-align: center;
   font-size: 1.3em;
   font-weight: bold;
   text-decoration: none;
   background: #333;
   border-radius: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .profileLinks a:hover {
   color: #fff;
 }
 .credit {
-  margin-bottom: 20px;
-  color: #fff;
-  background: #333;
+  margin: 15px 10px 0 0;
+  color: #000;
+  background: #fff;
   padding: 5px 10px;
+  border-radius: 10px;
 }
 .credit a {
-  color: #dad3d3;
+  color: #000;
   text-decoration: none;
   font-size: 1.3em;
   font-weight: bold;
